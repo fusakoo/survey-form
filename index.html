@@ -1,0 +1,160 @@
+<head>
+    <title>Survey Form</title>
+    <meta name="description" content="Sample Survey Form.">
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<main class="container">
+    <header class="text-center">
+        <h1 id="title">WebDev Survey Form</h1>
+        <p id="description">This is a short survey on your web development journey. Thank you for your time!</p>
+    </header>
+    <form id="survey-form" method="get" action="">
+        <div class="form-group">
+            <label id="name-label" for="name">Name <span class="required">*</span></label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+            />
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email <span class="required">*</span></label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+            />
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="age">Age <span class="">(optional)</span></label>
+            <input
+                type="number"
+                name="age"
+                id="number"
+                min="0"
+                max="99"
+                class="form-control"
+                placeholder="Age"
+            />
+        </div>
+        <div class="form-group">
+            <p>Which level best describes your current Web Development skills to be at? <span class="required">*</span></p>
+            <select id="dropdown" name="level" class="form control" required>
+                <option disabled selected value>Select your level</option>
+                <option value="noExp">No experience</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+                <option value="professional">Professional</option>
+                <option value="preferNo">Prefer not to answer</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Have you tried any of following Web Development learning resources? <span class="">(Check all that apply)</span></p>
+            <label>
+                <input
+                    name="prefer"
+                    value="free-code-camp"
+                    type="checkbox"
+                    class="input-checkbox"
+                />freeCodeCamp.org
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="odin-project"
+                    type="checkbox"
+                    class="input-checkbox"
+                />The Odin Project
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="codecacademy"
+                    type="checkbox"
+                    class="input-checkbox"
+                />Codecademy
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="coursera"
+                    type="checkbox"
+                    class="input-checkbox"
+                />Coursera
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="khan-academy"
+                    type="checkbox"
+                    class="input-checkbox"
+                />Khan Academy
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="mdn"
+                    type="checkbox"
+                    class="input-checkbox"
+                />Mozilla Developer Network
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="other"
+                    type="checkbox"
+                    class="input-checkbox"
+                />Other (Not listed)
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Would you recommend people to start learning Web Development?</p>
+            <label>
+                <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                />Definitely</input>
+            </label>
+            <label>
+                <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                />Maybe</input>
+            </label>
+            <label>
+                <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                />Not sure</input>
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Any comments for suggestions? <span class="">(optional)</span></p>
+            <textarea
+                id="comments"
+                class="input-textarea"
+                name="comment"
+                placeholder="Enter your comments here."
+            />
+            </textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+</main>
