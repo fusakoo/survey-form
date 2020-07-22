@@ -5,8 +5,5 @@
 <ul>
     <li>HTML5</li>
     <li>CSS3</li>
-    <ul>
-        <li>Form (Fieldset, Radio, Checkbox, etc.)</li>
-    </ul>
     <li>Github Pages</li>
 </ul>
