@@ -1,5 +1,5 @@
-<h1><a href="https://fusakoo.github.io/survey-form/"></a>Simple Survey Form</h1>
-<p>A sample of a survey form.</p>
+<h1><a href="https://fusakoo.github.io/survey-form/">Simple Survey Form</a></h1>
+<p>A sample survey form.</p>
 <p>This was created as part of the challenges of <a href="https://www.freecodecamp.org" target="_blank">Freecodecamp.org</a></p>
 <h3>Built with:</h3>
 <ul>
